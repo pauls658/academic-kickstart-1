@@ -2,12 +2,11 @@
 # A Recent Publications section created with the Pages widget.
 # This section displays recent blog posts from `content/publication/`.
 
-widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
+widget = "pages"  # Do not modify this line!
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Recent Publications"
+title = "Publications"
 subtitle = ""
 
 [content]
@@ -66,6 +65,8 @@ subtitle = ""
  css_class = ""
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+- ***Brandon Paulsen***, Chungha Sung, Peter Peterson, and Chao Wang. *"Debreach: Mitigating compression side channels via static analysis and transformation"*.  IEEE/ACM International Conference on Automated Software Engineering (**ASE**) at San Diego, CA. 2019. ([PDF](https://arxiv.org/abs/1909.05977))
+- Chungha Sung, ***Brandon Paulsen***, Chao Wang. *"CANAL: A cache timing analysis framework via LLVM transformation."* IEEE/ACM International Conference on Automated Software Engineering (**ASE**) Tool Demo Track at Montpellier, France. 2018. ([PDF](https://arxiv.org/abs/1807.03329))
+- ***Brandon Paulsen***, Peter A.H. Peterson. *"Debreach: Selective Dictionary Compression to Prevent BREACH and CRIME."* Masters thesis. ([PDF](https://conservancy.umn.edu/handle/11299/190584))
+- Andrew Brooks, Laura Krebs, and ***Brandon Paulsen***. *"A Comparison of Sorting Times between Java 8 and Parallel Colt: an Exploratory Experiment."* **SIGSOFT Softw. Eng. Notes** 41. 2016. ([PDF](https://dl.acm.org/citation.cfm?id=2967316))
+- Andrew Brooks, Laura Krebs, and ***Brandon Paulsen***. *"Beta-testing a requirements analysis tool."* **SIGSOFT Softw. Eng. Notes** 39. 2014. ([PDF](https://www.researchgate.net/profile/Laura_Krebs3/publication/286242565_Beta-testing_a_requirements_analysis_tool/links/57c3081708aed246b102a558.pdf))

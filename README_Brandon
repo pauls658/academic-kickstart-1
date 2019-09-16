@@ -1,0 +1,15 @@
+To make changes:
+- all content is in:
+	content/home/*
+- to view the site on local machine:
+	- the baseurl in config/_default/config.toml must be "/"
+- make sure to commit and push any updates
+
+To deploy:
+- change the baseurl to "/~bpaulsen/"
+- in the root directory run:
+	hugo
+- ssh to aludra.usc.edu, and in public_html run:
+	yes | rm -rf *
+- on local machine, copy public to aldura
+	scp -r public/* bpaulsen@aludra.usc.edu:~/public_html

@@ -3,11 +3,11 @@
 # Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
 
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+widget = "blank"  # Do not modify this line!
+active = false  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
+# Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
 title = "Academic Kickstart"
 subtitle = ""
 
@@ -35,13 +35,9 @@ subtitle = ""
   # Text color (true=light or false=dark).
   text_color_light = true
 
-[design.spacing]
-  # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
-
 [advanced]
  # Custom CSS. 
- css_style = ""
+ css_style = "padding-top: 20px; padding-bottom: 20px;"
  
  # CSS class.
  css_class = ""
