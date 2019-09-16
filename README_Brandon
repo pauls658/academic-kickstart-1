@@ -13,3 +13,7 @@ To deploy:
 	yes | rm -rf *
 - on local machine, copy public to aldura
 	scp -r public/* bpaulsen@aludra.usc.edu:~/public_html
+
+How things can break:
+- dowloading hugo from apt:
+	- you _must_ use the snap version
